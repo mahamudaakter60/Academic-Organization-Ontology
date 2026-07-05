@@ -1,0 +1,1312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#managesDepartment">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Administrator"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Department"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#BSMath">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#BachelorProgram"/>
+    <programName>Bachelor of Mathematics</programName>
+    <programDuration>3 years</programDuration>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Result">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ProfFatima">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#AssociateProfessor"/>
+    <belongsToUniversity rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#UniversityOfVerona"/>
+    <supervisesStudent rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Sara"/>
+    <belongsToDepartment rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#MathematicsDepartment"/>
+    <teaches rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#MachineLearning"/>
+    <teaches rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#DatabaseSystems"/>
+    <professorName>Prof Fatima</professorName>
+    <professorID>PRFatima</professorID>
+    <officeNumber>MATH-102</officeNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Ali">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#GraduateStudent"/>
+    <belongsToUniversity rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#UniversityOfVerona"/>
+    <belongsToDepartment rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ComputerScienceDepartment"/>
+    <belongsToProgram rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#MSAI"/>
+    <registeredIn rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Enrollment001"/>
+    <enrolledIn rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#KnowledgeRepresentation"/>
+    <takesCourse rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ArtificialIntelligence"/>
+    <attendsClass rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Room101"/>
+    <usesLibrary rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#CentralLibrary"/>
+    <usesLaboratory rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ResearchLab"/>
+    <usesTransport rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#UniversityBus"/>
+    <staysInHostel rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#MainHostel"/>
+    <hasAdvisor rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ProfAhmed"/>
+    <takesExam rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#KRFinal"/>
+    <submitsAssignment rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#AssignmentKR"/>
+    <hasResult rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ResultAli"/>
+    <hasAttendance rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#AttendanceAli"/>
+    <receivesScholarship rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#MeritScholarship"/>
+    <memberOfClub rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#RoboticsClub"/>
+    <participatesInProject rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ResearchProjectAI"/>
+    <receivesCertificate rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#CertificateAli"/>
+    <studentName>Ali</studentName>
+    <studentID>ST001</studentID>
+    <studentEmail>ali@student.univr.it</studentEmail>
+    <studentPhone>+39-045-000001</studentPhone>
+    <registrationNo>VR546501</registrationNo>
+    <cgpa rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.1</cgpa>
+    <age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</age>
+    <gender>male</gender>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#assignmentTitle">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Assignment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#DeanOffice">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Dean"/>
+    <headsFaculty rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#EngineeringFaculty"/>
+    <staffName>Dean Office</staffName>
+    <employeeID>DEA001</employeeID>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#AIExam">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#FinalExam"/>
+    <examDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-07-22T11:00:00</examDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#scheduledIn">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Course"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Timetable"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#PhysicsDepartment">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Department"/>
+    <belongsToFaculty rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ScienceFaculty"/>
+    <departmentName>Physics</departmentName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Faculty">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#AcademicOrganization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#BSCS">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#BachelorProgram"/>
+    <programName>Bachelor of Computer Science</programName>
+    <programDuration>3 years</programDuration>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Maria">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Student"/>
+    <belongsToUniversity rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#UniversityOfVerona"/>
+    <belongsToDepartment rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#EnglishDepartment"/>
+    <belongsToProgram rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#BSCS"/>
+    <registeredIn rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Enrollment001"/>
+    <enrolledIn rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ArtificialIntelligence"/>
+    <takesCourse rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#MachineLearning"/>
+    <attendsClass rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Room101"/>
+    <usesLibrary rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#CentralLibrary"/>
+    <usesLaboratory rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ResearchLab"/>
+    <usesTransport rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#UniversityBus"/>
+    <studentName>Maria</studentName>
+    <studentID>ST009</studentID>
+    <studentEmail>maria@student.univr.it</studentEmail>
+    <studentPhone>+39-045-000009</studentPhone>
+    <registrationNo>VR546509</registrationNo>
+    <cgpa rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.9</cgpa>
+    <age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</age>
+    <gender>female</gender>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Usman">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#UndergraduateStudent"/>
+    <belongsToUniversity rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#UniversityOfVerona"/>
+    <belongsToDepartment rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#PhysicsDepartment"/>
+    <belongsToProgram rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#BSCS"/>
+    <registeredIn rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Enrollment001"/>
+    <enrolledIn rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#OntologyEngineering"/>
+    <takesCourse rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#LinearAlgebra"/>
+    <attendsClass rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Room101"/>
+    <usesLibrary rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#CentralLibrary"/>
+    <usesLaboratory rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ResearchLab"/>
+    <usesTransport rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#UniversityBus"/>
+    <staysInHostel rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#MainHostel"/>
+    <hasAdvisor rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ProfJohn"/>
+    <studentName>Usman</studentName>
+    <studentID>ST005</studentID>
+    <studentEmail>usman@student.univr.it</studentEmail>
+    <studentPhone>+39-045-000005</studentPhone>
+    <registrationNo>VR546505</registrationNo>
+    <cgpa rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.5</cgpa>
+    <age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</age>
+    <gender>male</gender>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Publication">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Bilal">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Student"/>
+    <belongsToUniversity rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#UniversityOfVerona"/>
+    <belongsToDepartment rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ChemistryDepartment"/>
+    <belongsToProgram rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#BSMath"/>
+    <registeredIn rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Enrollment002"/>
+    <enrolledIn rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#KnowledgeRepresentation"/>
+    <takesCourse rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ArtificialIntelligence"/>
+    <attendsClass rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Room102"/>
+    <usesLibrary rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#CentralLibrary"/>
+    <usesLaboratory rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#AILab"/>
+    <usesTransport rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#UniversityBus"/>
+    <studentName>Bilal</studentName>
+    <studentID>ST008</studentID>
+    <studentEmail>bilal@student.univr.it</studentEmail>
+    <studentPhone>+39-045-000008</studentPhone>
+    <registrationNo>VR546508</registrationNo>
+    <cgpa rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.8</cgpa>
+    <age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</age>
+    <gender>male</gender>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Sara">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#GraduateStudent"/>
+    <belongsToUniversity rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#UniversityOfVerona"/>
+    <belongsToDepartment rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#MathematicsDepartment"/>
+    <belongsToProgram rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#MSMathematics"/>
+    <registeredIn rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Enrollment002"/>
+    <enrolledIn rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ArtificialIntelligence"/>
+    <takesCourse rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#MachineLearning"/>
+    <attendsClass rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Room102"/>
+    <usesLibrary rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#CentralLibrary"/>
+    <usesLaboratory rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#AILab"/>
+    <usesTransport rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#UniversityBus"/>
+    <staysInHostel rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#MainHostel"/>
+    <hasAdvisor rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ProfFatima"/>
+    <takesExam rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#MathExam"/>
+    <submitsAssignment rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#AssignmentMath"/>
+    <hasResult rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ResultSara"/>
+    <hasAttendance rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#AttendanceSara"/>
+    <participatesInEvent rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ResearchSeminar"/>
+    <studentName>Sara</studentName>
+    <studentID>ST002</studentID>
+    <studentEmail>sara@student.univr.it</studentEmail>
+    <studentPhone>+39-045-000002</studentPhone>
+    <registrationNo>VR546502</registrationNo>
+    <cgpa rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.2</cgpa>
+    <age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</age>
+    <gender>female</gender>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#OntologyEngineering">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#OnlineCourse"/>
+    <hasInstructor rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ProfAli"/>
+    <courseCode>OE605</courseCode>
+    <courseTitle>Ontology Engineering</courseTitle>
+    <credits rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</credits>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#eventDate">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#AcademicEvent"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#staffName">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Staff"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ComputerScienceDepartment">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Department"/>
+    <belongsToFaculty rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#EngineeringFaculty"/>
+    <offersCourse rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#KnowledgeRepresentation"/>
+    <offersCourse rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ArtificialIntelligence"/>
+    <offersCourse rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#MachineLearning"/>
+    <offersCourse rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#DatabaseSystems"/>
+    <offersCourse rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#OntologyEngineering"/>
+    <departmentName>Computer Science</departmentName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ResearchLab">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Laboratory"/>
+    <labName>Research Laboratory</labName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#LinearAlgebra">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#CoreCourse"/>
+    <hasInstructor rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ProfSara"/>
+    <assignedToClassroom rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Room102"/>
+    <hasSemester rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Semester2"/>
+    <scheduledIn rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Timetable2"/>
+    <hasAssignment rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#AssignmentMath"/>
+    <hasExam rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#MathExam"/>
+    <courseCode>MA501</courseCode>
+    <courseTitle>Linear Algebra</courseTitle>
+    <credits rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</credits>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#MathExam">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#MidtermExam"/>
+    <examDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-07-24T09:00:00</examDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#organizesEvent">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Club"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#AcademicEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#worksIn">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Staff"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Department"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#registeredIn">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Student"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Enrollment"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Enrollment">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#KRFinal">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#FinalExam"/>
+    <evaluatedBy rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ProfAhmed"/>
+    <examDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-07-20T10:00:00</examDate>
+    <examTime>10:00 AM</examTime>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Ahmed">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#UndergraduateStudent"/>
+    <belongsToUniversity rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#UniversityOfVerona"/>
+    <belongsToDepartment rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ComputerScienceDepartment"/>
+    <belongsToProgram rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#BSCS"/>
+    <registeredIn rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Enrollment001"/>
+    <enrolledIn rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#MachineLearning"/>
+    <takesCourse rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#DatabaseSystems"/>
+    <attendsClass rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Room101"/>
+    <usesLibrary rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#CentralLibrary"/>
+    <usesLaboratory rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ResearchLab"/>
+    <usesTransport rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#UniversityBus"/>
+    <staysInHostel rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#MainHostel"/>
+    <hasAdvisor rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ProfAli"/>
+    <takesExam rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#MathExam"/>
+    <submitsAssignment rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#AssignmentMath"/>
+    <studentName>Ahmed</studentName>
+    <studentID>ST003</studentID>
+    <studentEmail>ahmed@student.univr.it</studentEmail>
+    <studentPhone>+39-045-000003</studentPhone>
+    <registrationNo>VR546503</registrationNo>
+    <cgpa rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.3</cgpa>
+    <age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</age>
+    <gender>male</gender>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ChemistryDepartment">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Department"/>
+    <belongsToFaculty rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ScienceFaculty"/>
+    <departmentName>Chemistry</departmentName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ResearchCenter">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#AcademicOrganization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#registrationNo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Student"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Hamza">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Student"/>
+    <belongsToUniversity rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#UniversityOfVerona"/>
+    <belongsToDepartment rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ComputerScienceDepartment"/>
+    <belongsToProgram rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#BSMath"/>
+    <registeredIn rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Enrollment001"/>
+    <enrolledIn rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Calculus"/>
+    <takesCourse rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#KnowledgeRepresentation"/>
+    <attendsClass rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Room101"/>
+    <usesLibrary rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#CentralLibrary"/>
+    <usesLaboratory rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ResearchLab"/>
+    <usesTransport rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#UniversityBus"/>
+    <studentName>Hamza</studentName>
+    <studentID>ST007</studentID>
+    <studentEmail>hamza@student.univr.it</studentEmail>
+    <studentPhone>+39-045-000007</studentPhone>
+    <registrationNo>VR546507</registrationNo>
+    <cgpa rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.7</cgpa>
+    <age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</age>
+    <gender>male</gender>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#takesCourse">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Student"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Course"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#KRMidterm">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#MidtermExam"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ProfAhmed">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#FullProfessor"/>
+    <belongsToUniversity rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#UniversityOfVerona"/>
+    <supervisesStudent rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Ali"/>
+    <supervisesStudent rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Fatima"/>
+    <belongsToDepartment rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ComputerScienceDepartment"/>
+    <teaches rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#KnowledgeRepresentation"/>
+    <teaches rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ArtificialIntelligence"/>
+    <memberOfResearchGroup rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#OntologyResearchGroup"/>
+    <writesPublication rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#PublicationOWL"/>
+    <professorName>Prof Ahmed</professorName>
+    <professorID>PRAhmed</professorID>
+    <officeNumber>CS-204</officeNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#examTime">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Examination"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#attendancePercentage">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Attendance"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#age">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Person"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#KnowledgeRepresentation">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#CoreCourse"/>
+    <hasInstructor rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ProfAhmed"/>
+    <hasInstructor rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#DrMatteo"/>
+    <assignedToClassroom rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Room101"/>
+    <hasSemester rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Semester1"/>
+    <scheduledIn rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Timetable1"/>
+    <hasAssignment rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#AssignmentKR"/>
+    <hasExam rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#KRFinal"/>
+    <courseCode>KR601</courseCode>
+    <courseTitle>Knowledge Representation</courseTitle>
+    <credits rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</credits>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Fatima">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#PhDStudent"/>
+    <belongsToUniversity rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#UniversityOfVerona"/>
+    <belongsToDepartment rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ComputerScienceDepartment"/>
+    <belongsToProgram rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#PhDComputerScience"/>
+    <registeredIn rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Enrollment002"/>
+    <enrolledIn rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#DatabaseSystems"/>
+    <takesCourse rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#OntologyEngineering"/>
+    <attendsClass rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Room102"/>
+    <usesLibrary rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#CentralLibrary"/>
+    <usesLaboratory rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#AILab"/>
+    <usesTransport rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#UniversityBus"/>
+    <staysInHostel rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#MainHostel"/>
+    <hasAdvisor rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ProfAhmed"/>
+    <takesExam rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#KRFinal"/>
+    <submitsAssignment rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#AssignmentKR"/>
+    <participatesInProject rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ResearchProjectAI"/>
+    <memberOfResearchGroup rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#OntologyResearchGroup"/>
+    <studentName>Fatima</studentName>
+    <studentID>ST004</studentID>
+    <studentEmail>fatima@student.univr.it</studentEmail>
+    <studentPhone>+39-045-000004</studentPhone>
+    <registrationNo>VR546504</registrationNo>
+    <cgpa rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.4</cgpa>
+    <age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</age>
+    <gender>female</gender>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#headsDepartment">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Professor"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Department"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#organizedBy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ResearchProject"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Department"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#examDate">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Examination"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#AssignmentKR">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Assignment"/>
+    <gradedBy rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ProfAhmed"/>
+    <assignmentTitle>Ontology Modeling Assignment</assignmentTitle>
+    <assignmentMarks rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</assignmentMarks>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Noor">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#GraduateStudent"/>
+    <belongsToUniversity rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#UniversityOfVerona"/>
+    <belongsToDepartment rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#PhysicsDepartment"/>
+    <belongsToProgram rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#MSMathematics"/>
+    <registeredIn rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Enrollment002"/>
+    <enrolledIn rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#OntologyEngineering"/>
+    <takesCourse rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#LinearAlgebra"/>
+    <attendsClass rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Room102"/>
+    <usesLibrary rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#CentralLibrary"/>
+    <usesLaboratory rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#AILab"/>
+    <usesTransport rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#UniversityBus"/>
+    <studentName>Noor</studentName>
+    <studentID>ST012</studentID>
+    <studentEmail>noor@student.univr.it</studentEmail>
+    <studentPhone>+39-045-000012</studentPhone>
+    <registrationNo>VR546512</registrationNo>
+    <cgpa rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.2</cgpa>
+    <age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</age>
+    <gender>female</gender>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#evaluatedBy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Examination"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Professor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#TAKhan">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#TeachingAssistant"/>
+    <belongsToUniversity rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#UniversityOfVerona"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#AccountOfficerNadia">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#AccountOfficer"/>
+    <staffName>Nadia Account Officer</staffName>
+    <employeeID>ACC001</employeeID>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#assignmentMarks">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Assignment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Library">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Person">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#LecturerHassan">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Lecturer"/>
+    <belongsToUniversity rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#UniversityOfVerona"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#MachineLearning">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#CoreCourse"/>
+    <hasInstructor rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ProfFatima"/>
+    <assignedToClassroom rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Room201"/>
+    <hasSemester rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Semester2"/>
+    <scheduledIn rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Timetable2"/>
+    <hasAssignment rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#AssignmentAI"/>
+    <hasExam rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#AIExam"/>
+    <courseCode>ML603</courseCode>
+    <courseTitle>Machine Learning</courseTitle>
+    <credits rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</credits>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#participatesInEvent">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Student"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#AcademicEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#participatesInProject">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Student"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ResearchProject"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#professorID">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Professor"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Timetable1">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Timetable"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ResultAli">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Result"/>
+    <resultGrade>A</resultGrade>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#hasAdvisor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Student"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Professor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Dean">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#hasExam">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Course"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Examination"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Zara">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#UndergraduateStudent"/>
+    <belongsToUniversity rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#UniversityOfVerona"/>
+    <belongsToDepartment rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#MathematicsDepartment"/>
+    <belongsToProgram rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#BSMath"/>
+    <registeredIn rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Enrollment001"/>
+    <enrolledIn rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#DatabaseSystems"/>
+    <takesCourse rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#OntologyEngineering"/>
+    <attendsClass rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Room101"/>
+    <usesLibrary rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#CentralLibrary"/>
+    <usesLaboratory rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ResearchLab"/>
+    <usesTransport rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#UniversityBus"/>
+    <studentName>Zara</studentName>
+    <studentID>ST011</studentID>
+    <studentEmail>zara@student.univr.it</studentEmail>
+    <studentPhone>+39-045-000011</studentPhone>
+    <registrationNo>VR546511</registrationNo>
+    <cgpa rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.1</cgpa>
+    <age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</age>
+    <gender>female</gender>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#CentralLibrary">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Library"/>
+    <libraryName>Central Library</libraryName>
+    <libraryCardID>LIB-001</libraryCardID>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Ayesha">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#GraduateStudent"/>
+    <belongsToUniversity rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#UniversityOfVerona"/>
+    <belongsToDepartment rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#MathematicsDepartment"/>
+    <belongsToProgram rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#MSAI"/>
+    <registeredIn rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Enrollment002"/>
+    <enrolledIn rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#LinearAlgebra"/>
+    <takesCourse rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Calculus"/>
+    <attendsClass rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Room102"/>
+    <usesLibrary rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#CentralLibrary"/>
+    <usesLaboratory rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#AILab"/>
+    <usesTransport rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#UniversityBus"/>
+    <staysInHostel rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#MainHostel"/>
+    <hasAdvisor rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ProfSara"/>
+    <studentName>Ayesha</studentName>
+    <studentID>ST006</studentID>
+    <studentEmail>ayesha@student.univr.it</studentEmail>
+    <studentPhone>+39-045-000006</studentPhone>
+    <registrationNo>VR546506</registrationNo>
+    <cgpa rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.6</cgpa>
+    <age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</age>
+    <gender>female</gender>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#receivesScholarship">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Student"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Scholarship"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#writesPublication">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Professor"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Publication"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#DatabaseSystems">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ElectiveCourse"/>
+    <hasInstructor rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ProfFatima"/>
+    <courseCode>DB604</courseCode>
+    <courseTitle>Database Systems</courseTitle>
+    <credits rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</credits>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Student">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ArtificialIntelligence">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#CoreCourse"/>
+    <hasInstructor rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ProfAhmed"/>
+    <assignedToClassroom rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Room102"/>
+    <hasSemester rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Semester1"/>
+    <scheduledIn rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Timetable1"/>
+    <hasAssignment rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#AssignmentAI"/>
+    <hasExam rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#AIExam"/>
+    <courseCode>AI602</courseCode>
+    <courseTitle>Artificial Intelligence</courseTitle>
+    <credits rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</credits>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#resultGrade">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Result"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#conductsExam">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Professor"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Examination"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ProfSara">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Professor"/>
+    <belongsToUniversity rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#UniversityOfVerona"/>
+    <supervisesStudent rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Ayesha"/>
+    <belongsToDepartment rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#MathematicsDepartment"/>
+    <teaches rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#LinearAlgebra"/>
+    <professorName>Prof Sara</professorName>
+    <professorID>PRSara</professorID>
+    <officeNumber>MATH-109</officeNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#departmentName">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Department"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Staff">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#MSAI">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#MasterProgram"/>
+    <programName>Master of Artificial Intelligence</programName>
+    <programDuration>2 years</programDuration>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#enrolledIn">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Student"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Course"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ViceChancellor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#staysInHostel">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Student"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Hostel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#receivesCertificate">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Student"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Certificate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Graduation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Registrar">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ProfAli">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#AssistantProfessor"/>
+    <belongsToUniversity rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#UniversityOfVerona"/>
+    <supervisesStudent rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Ahmed"/>
+    <belongsToDepartment rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ComputerScienceDepartment"/>
+    <teaches rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#OntologyEngineering"/>
+    <professorName>Prof Ali</professorName>
+    <professorID>PRAli</professorID>
+    <officeNumber>CS-210</officeNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Office">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#AcademicOrganization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#officeNumber">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Professor"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ElectiveCourse">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Course"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ProfJohn">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Professor"/>
+    <belongsToUniversity rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#UniversityOfVerona"/>
+    <supervisesStudent rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Usman"/>
+    <belongsToDepartment rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#MathematicsDepartment"/>
+    <teaches rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Calculus"/>
+    <professorName>Prof John</professorName>
+    <professorID>PRJohn</professorID>
+    <officeNumber>PHY-310</officeNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#academicYearName">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#AcademicYear"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#MeritScholarship">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Scholarship"/>
+    <scholarshipAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1000.0</scholarshipAmount>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#memberOfResearchGroup">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Person"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ResearchGroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#EngineeringFaculty">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Faculty"/>
+    <facultyName>Faculty of Engineering</facultyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ResearchProjectAI">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ResearchProject"/>
+    <organizedBy rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ComputerScienceDepartment"/>
+    <projectTitle>Ontology-Based Academic Knowledge System</projectTitle>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#John">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#PhDStudent"/>
+    <belongsToUniversity rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#UniversityOfVerona"/>
+    <belongsToDepartment rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ComputerScienceDepartment"/>
+    <belongsToProgram rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#PhDComputerScience"/>
+    <registeredIn rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Enrollment002"/>
+    <enrolledIn rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#MachineLearning"/>
+    <takesCourse rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#DatabaseSystems"/>
+    <attendsClass rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Room102"/>
+    <usesLibrary rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#CentralLibrary"/>
+    <usesLaboratory rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#AILab"/>
+    <usesTransport rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#UniversityBus"/>
+    <hasAdvisor rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#DrMatteo"/>
+    <studentName>John</studentName>
+    <studentID>ST010</studentID>
+    <studentEmail>john@student.univr.it</studentEmail>
+    <studentPhone>+39-045-000010</studentPhone>
+    <registrationNo>VR546510</registrationNo>
+    <cgpa rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.0</cgpa>
+    <age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</age>
+    <gender>male</gender>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#MathematicsDepartment">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Department"/>
+    <belongsToFaculty rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ScienceFaculty"/>
+    <offersCourse rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#LinearAlgebra"/>
+    <offersCourse rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Calculus"/>
+    <departmentName>Mathematics</departmentName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#libraryCardID">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Library"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#hasInstructor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Course"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Professor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#programName">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#AcademicProgram"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Semester1">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Semester"/>
+    <semesterName>Fall Semester 2026</semesterName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#MidtermExam">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Examination"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#belongsToFaculty">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Department"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Faculty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#belongsToProgram">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Student"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#AcademicProgram"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#hostelName">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Hostel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#hasAssignment">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Course"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Assignment"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#supervisesStudent">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Professor"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Student"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#OnlineCourse">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Course"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#reportsTo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Staff"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Administrator"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#AttendanceSara">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Attendance"/>
+    <attendancePercentage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">95.0</attendancePercentage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#headsFaculty">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Dean"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Faculty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#studentID">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Student"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#AccountOfficer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#AcademicYear2026">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#AcademicYear"/>
+    <academicYearName>Academic Year 2026-2027</academicYearName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#hasSemester">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Course"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Semester"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#UndergraduateStudent">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Student"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Calculus">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#CoreCourse"/>
+    <hasInstructor rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ProfJohn"/>
+    <courseCode>MA502</courseCode>
+    <courseTitle>Calculus</courseTitle>
+    <credits rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</credits>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#DrMatteo">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Professor"/>
+    <belongsToUniversity rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#UniversityOfVerona"/>
+    <supervisesStudent rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#John"/>
+    <belongsToDepartment rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ComputerScienceDepartment"/>
+    <teaches rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#KnowledgeRepresentation"/>
+    <professorName>Dr Matteo Cristani</professorName>
+    <professorID>DrMatteo</professorID>
+    <officeNumber>CS-301</officeNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#providesScholarship">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#University"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Scholarship"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#gradedBy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Assignment"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Professor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#offersCourse">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Department"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Course"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#LibrarianMaria">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Librarian"/>
+    <staffName>Maria Librarian</staffName>
+    <employeeID>LIB001</employeeID>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#joiningDate">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Staff"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#belongsToDepartment">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Person"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Department"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#memberOfClub">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Student"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Club"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#programDuration">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#AcademicProgram"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#studentPhone">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Student"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#AdminOffice">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Administrator"/>
+    <managesDepartment rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ComputerScienceDepartment"/>
+    <staffName>Administrative Office</staffName>
+    <employeeID>ADM001</employeeID>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#projectTitle">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ResearchProject"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#courseCode">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Course"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#AILab">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Laboratory"/>
+    <labName>Artificial Intelligence Laboratory</labName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#usesLaboratory">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Student"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Laboratory"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ResearchSeminar">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#AcademicEvent"/>
+    <eventDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-15</eventDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Administrator">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#AcademicEvent">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#credits">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Course"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#assignedToClassroom">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Course"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Classroom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#hasResult">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Student"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Result"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Semester2">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Semester"/>
+    <semesterName>Spring Semester 2027</semesterName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#CoreCourse">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Course"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#takesExam">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Student"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Examination"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ScienceFaculty">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Faculty"/>
+    <facultyName>Faculty of Science</facultyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#attendsClass">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Student"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Classroom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#roomNumber">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Classroom"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#PhDStudent">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Student"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ViceChancellorOffice">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ViceChancellor"/>
+    <reportsTo rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#AdminOffice"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#EnglishDepartment">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Department"/>
+    <belongsToFaculty rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#HumanitiesFaculty"/>
+    <departmentName>English Studies</departmentName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#submitsAssignment">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Student"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Assignment"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Department">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#AcademicOrganization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Timetable">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#TeachingAssistant">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#publicationTitle">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Publication"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#TechnicianOmar">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Technician"/>
+    <staffName>Omar Technician</staffName>
+    <employeeID>TEC001</employeeID>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Technician">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#certificateNo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Certificate"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#AcademicProgram">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#professorName">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Professor"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#GraduateStudent">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Student"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#UniversityOfVerona">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#University"/>
+    <providesScholarship rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#MeritScholarship"/>
+    <issuesCertificate rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#CertificateAli"/>
+    <universityName>University of Verona</universityName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#PhDProgram">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#AcademicProgram"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#universityName">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#University"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Room102">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Classroom"/>
+    <roomNumber>102</roomNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#courseTitle">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Course"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#PhDComputerScience">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#PhDProgram"/>
+    <programName>PhD in Computer Science</programName>
+    <programDuration>3 years</programDuration>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#MainHostel">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Hostel"/>
+    <hostelName>Main Student Hostel</hostelName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#gender">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Person"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Hostel">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#FullProfessor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Professor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#RegistrarOffice">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Registrar"/>
+    <managesDepartment rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#MathematicsDepartment"/>
+    <staffName>Registrar Office</staffName>
+    <employeeID>REG001</employeeID>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#AssignmentAI">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Assignment"/>
+    <assignmentTitle>AI Project Assignment</assignmentTitle>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Classroom">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Librarian">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#usesTransport">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Student"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#TransportService"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#studentName">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Student"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#usesLibrary">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Student"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Library"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#CertificateAli">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Certificate"/>
+    <certificateNo>CERT-2026-001</certificateNo>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Room201">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Classroom"/>
+    <roomNumber>201</roomNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#AssignmentMath">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Assignment"/>
+    <assignmentTitle>Linear Algebra Assignment</assignmentTitle>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Lecturer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#teaches">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Professor"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Course"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#hasAttendance">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Student"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Attendance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Enrollment001">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Enrollment"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#studentEmail">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Student"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#semesterName">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Semester"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#labName">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Laboratory"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#AttendanceAli">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Attendance"/>
+    <attendancePercentage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">92.5</attendancePercentage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Timetable2">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Timetable"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#PublicationOWL">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Publication"/>
+    <publicationTitle>OWL Ontology for Academic Organizations</publicationTitle>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#belongsToUniversity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Person"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#University"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ResearchProject">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#salary">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Staff"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Assignment">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Examination">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#facultyName">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Faculty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#AcademicOrganization">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#MSMathematics">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#MasterProgram"/>
+    <programName>Master of Mathematics</programName>
+    <programDuration>2 years</programDuration>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#AcademicYear">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Semester">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#cgpa">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Student"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#University">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#AcademicOrganization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#employeeID">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Staff"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#UniversityBus">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#TransportService"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#RoboticsClub">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Club"/>
+    <organizesEvent rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ResearchSeminar"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#AssociateProfessor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Professor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#AssistantProfessor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Professor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#FinalExam">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Examination"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Room101">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Classroom"/>
+    <roomNumber>101</roomNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Club">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Attendance">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Graduation2026">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Graduation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#BachelorProgram">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#AcademicProgram"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#TransportService">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#scholarshipAmount">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Scholarship"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#issuesCertificate">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#University"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Certificate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Professor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Certificate">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Laboratory">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ResultSara">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Result"/>
+    <resultGrade>A+</resultGrade>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#libraryName">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Library"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#MasterProgram">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#AcademicProgram"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#OntologyResearchGroup">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ResearchGroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#HumanitiesFaculty">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Faculty"/>
+    <facultyName>Faculty of Humanities</facultyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Enrollment002">
+    <rdf:type rdf:resource="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Enrollment"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#ResearchGroup">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Scholarship">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/mahamuda/ontologies/2026/AcademicOrganizationOntology#Course">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+</rdf:RDF>
